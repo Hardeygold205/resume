@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{lmodern}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\newcommand{\resumename}[1]{{\textls[150]{\fontsize{40pt}{40pt}\selectfont\textbf{#1}}}}
+\newcommand{\jobtitle}[1]{{\fontsize{13pt}{13pt}\selectfont\textbf{#1}}}
+\newcommand{\contactinfo}[1]{{\fontsize{10pt}{12pt}\selectfont #1}}
+
+\newcommand{\sectiontitle}[1]{\textbf{\uppercase\expandafter{\romannumeral-`\0#1}}}
+
+\newcommand{\sectiondivider}[2][0.4]{%
+    \noindent
+    \vspace{12pt}
+    \textcolor{black}{%
+        \noindent
+        \makebox[\linewidth]{\rule{#1\linewidth}{0.5pt}%
+        \hspace{5pt} \textbf{\uppercase{#2}} \hspace{5pt}%
+        \rule{#1\linewidth}{0.5pt}}%
+    }
+    \vspace{6pt}
+}
+
+\pagenumbering{arabic}
+
+\begin{document}
+
+\begin{center}
+    \resumename{Hadi Ademola} \\[0.7cm]
+    \jobtitle{Software Engineer . FullStack Developer . GeoPhysicsist . Web3 Marketing} \\[0.3cm]
+    \contactinfo{+234 813 855 3465 \textbar\ \href{mailto:yourname@email.com}{hardeygold11@email.com}  \textbar\  Ibadan, Nigeria \textbar\ \href{https://LinkedIn.com/in/Hardeygold205}{LinkedIn.com/in/Hardeygold205}}\\[0.1cm]
+    \contactinfo{ \href{https://hadiademola.vercel.app}{Portfolio:hadiademola.com}}
+\end{center}
+
+\sectiondivider{Profile Summary} \\
+{\centering
+\setstretch{1.5}
+A passionate Software Engineer and FullStack developer with a keen eye for crafting captivating digital experiences. Technology has always fascinated me, and I'm dedicated to pushing the boundaries of what's possible on the web. I have profound love for coding and a dedication to continuous learning. I have the privilege of turning creative ideas into functional and visually appealing websites and applications. I thrive on bringing designs to life by writing clean, elegant and efficient code. And I'm always excited to learn about emerging web technologies that enhance user experiences.
+\par}
+
+\vspace{1.1cm}
+
+\sectiondivider[0.47]{Skills}
+\noindent
+\begin{tabbing}
+\hspace{6cm} \= \hspace{6cm} \= \kill
+\textbf{\uppercase{Technical Skills:}} \> HTML5 \& CSS \textbar\ JavaScript \textbar\ TypeScript \textbar\ Python \textbar\ LaTex \textbar\ NodeJs \textbar\ NextJS  \\[0.2cm]
+\> React \textbar\ React Native \textbar\ TailwindCSS \textbar\ BootStrap \textbar\ MongoDB \textbar\ PostgreSQl \\[0.2cm]
+\> Linux/Unix \textbar\ Git \& Version Control \textbar\ SQL \textbar\ RESTful API Integration \\[2.5ex]
+
+\textbf{\uppercase{Professional Skills:}} \> Geo-Physicsist \textbar\ Data Visualization \textbar\ Web3 Marketing \textbar\ Project Management  \\[0.2cm]
+\> Excellent Communication \textbar\  \textbar\ Decision Making \textbar\ Strategic Planning \textbar\ Team Leadership \\ 
+\end{tabbing}
+
+\vspace{0.5cm}
+
+\sectiondivider[0.35]{Performance Highlights}
+
+\noindent
+\textbf{\huge \textcolor{black}{3}} \textnormal{Years of Experience} \hspace{1cm}
+\textbf{\huge \textcolor{black}{8}} \textnormal{Technologies Mastered} \hspace{1cm}
+\textbf{\huge \textcolor{black}{14}} \textnormal{Projects Completed} \hspace{1cm}
+\textbf{\huge \textcolor{black}{544}} \textnormal{Code Commits}
+
+\vspace{1cm}
+
+\sectiondivider[0.44]{Education}
+\noindent
+\begin{tabbing}
+    \hspace{5cm} \= \hspace{7cm} \= \kill % Set tab stops
+    \textbf{Years} \> \textbf{Degree/Skills}  \> \textbf{Institutions} \\[0.3cm]
+    \textbf{2021 -- Present} \> Bachelor of Science in Physics  \> University of Ibadan, Ibadan Nigeria \\[0.2cm]
+    \textbf{2023 -- Present} \> Software Engineer/Backend Developer  \> ALX Africa \\[0.2cm]
+    \textbf{2022 -- 2023} \> Frontend Developer  \> FreeCodeCamp \\
+    
+\end{tabbing}
+\vspace{1cm}
+\newpage
+\sectiondivider[0.35]{Work Experiences}
+
+\end{document}
