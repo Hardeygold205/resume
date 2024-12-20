@@ -9,6 +9,7 @@
 \usepackage{enumitem}
 \usepackage{microtype}
 \usepackage{lmodern}
+\usepackage{tabularx}
 
 % Hyperlink setup
 \hypersetup{
@@ -17,6 +18,8 @@
     urlcolor=blue,
     citecolor=blue
 }
+
+\newcommand{\sectionnumber}[1]{\textbf{#1}}
 
 \newcommand{\resumename}[1]{{\textls[150]{\fontsize{40pt}{40pt}\selectfont\textbf{#1}}}}
 \newcommand{\jobtitle}[1]{{\fontsize{13pt}{13pt}\selectfont\textbf{#1}}}
@@ -42,7 +45,7 @@
 
 \begin{center}
     \resumename{Hadi Ademola} \\[0.7cm]
-    \jobtitle{Software Engineer . FullStack Developer . GeoPhysicsist . Web3 Marketing} \\[0.3cm]
+    \jobtitle{Software Engineer . FullStack Developer . Geo-Physicsist . Web3 Marketing} \\[0.3cm]
     \contactinfo{+234 813 855 3465 \textbar\ \href{mailto:yourname@email.com}{hardeygold11@email.com}  \textbar\  Ibadan, Nigeria \textbar\ \href{https://LinkedIn.com/in/Hardeygold205}{LinkedIn.com/in/Hardeygold205}}\\[0.1cm]
     \contactinfo{ \href{https://hadiademola.vercel.app}{Portfolio:hadiademola.com}}
 \end{center}
@@ -59,7 +62,7 @@ A passionate Software Engineer and FullStack developer with a keen eye for craft
 \noindent
 \begin{tabbing}
 \hspace{6cm} \= \hspace{6cm} \= \kill
-\textbf{\uppercase{Technical Skills:}} \> HTML5 \& CSS \textbar\ JavaScript \textbar\ TypeScript \textbar\ Python \textbar\ LaTex \textbar\ NodeJs \textbar\ NextJS  \\[0.2cm]
+\textbf{\uppercase{Technical Skills:}} \> HTML \& CSS \textbar\ JavaScript \textbar\ TypeScript \textbar\ Python \textbar\ LaTex \textbar\ NodeJs \textbar\ NextJS  \\[0.2cm]
 \> React \textbar\ React Native \textbar\ TailwindCSS \textbar\ BootStrap \textbar\ MongoDB \textbar\ PostgreSQl \\[0.2cm]
 \> Linux/Unix \textbar\ Git \& Version Control \textbar\ SQL \textbar\ RESTful API Integration \\[2.5ex]
 
@@ -69,28 +72,49 @@ A passionate Software Engineer and FullStack developer with a keen eye for craft
 
 \vspace{0.5cm}
 
+\sectiondivider[0.46]{Projects}\\
+\noindent
+\begin{tabular}{p{0.9\textwidth} r}
+    \sectionnumber{Excel Exchange} \textbar{} Vite+React, TailwindCSS, Node.Js, MongoDB \textbar{} \contactinfo{ \href{https://excelexchange.vercel.app}{Live Dashboard}} \\[0.4cm]
+    \sectionnumber{CoinBitz Extension} \textbar{} Vite+React, TailwindCSS, ExpressJs, Web3.Js PostgreSQl \textbar{} \contactinfo{ \href{https://coinbit-extension.vercel.app}{Live Dashboard}} \\[0.4cm]
+    \sectionnumber{My Personal Portfolio} \textbar{} NextJS, TypeScript, TailwindCSS EmailJs \textbar{} \contactinfo{ \href{https://hadiademola.vercel.app}{Live Dashboard}} \\[0.4cm]
+    \sectionnumber{CampusRide App} \textbar{} React Native, Expo Router, NativeWind, NodeJs, Docker \textbar{} \contactinfo{ \href{https://github.com/Hardeygold205/CampusRide}{Github Repository}} \\[0.4cm]
+    \sectionnumber{Twitter Gain App} \textbar{} HTML, CSS, JavaScript, BootStrap \textbar{} \contactinfo{ \href{https://github.com/Hardeygold205/twitter-gain-app}{Github Repository}} \\
+\end{tabular}
+
+\vspace{1cm}
+
 \sectiondivider[0.35]{Performance Highlights}
 
 \noindent
 \textbf{\huge \textcolor{black}{3}} \textnormal{Years of Experience} \hspace{1cm}
 \textbf{\huge \textcolor{black}{8}} \textnormal{Technologies Mastered} \hspace{1cm}
 \textbf{\huge \textcolor{black}{14}} \textnormal{Projects Completed} \hspace{1cm}
-\textbf{\huge \textcolor{black}{544}} \textnormal{Code Commits}
+\textbf{\huge \textcolor{black}{604}} \textnormal{Code Contributions}
 
 \vspace{1cm}
-
+\newpage
 \sectiondivider[0.44]{Education}
 \noindent
 \begin{tabbing}
-    \hspace{5cm} \= \hspace{7cm} \= \kill % Set tab stops
+    \hspace{5cm} \= \hspace{7cm} \= \kill 
     \textbf{Years} \> \textbf{Degree/Skills}  \> \textbf{Institutions} \\[0.3cm]
     \textbf{2021 -- Present} \> Bachelor of Science in Physics  \> University of Ibadan, Ibadan Nigeria \\[0.2cm]
     \textbf{2023 -- Present} \> Software Engineer/Backend Developer  \> ALX Africa \\[0.2cm]
     \textbf{2022 -- 2023} \> Frontend Developer  \> FreeCodeCamp \\
     
 \end{tabbing}
+
 \vspace{1cm}
-\newpage
-\sectiondivider[0.35]{Work Experiences}
+
+\sectiondivider[0.38]{Work Experiences}
+\noindent
+\begin{tabbing}
+    \hspace{5cm} \= \hspace{7cm} \= \kill 
+    \textbf{Years} \> \textbf{Role}  \> \textbf{Company} \\[0.3cm]
+    \textbf{2023 -- 2024} \> App Developer  \> Team Piooneers - Innotech 2.0 \\[0.2cm]
+    \textbf{2023 -- 2024} \> SIWES  \> Imaginarium Creative Global \\[0.2cm]
+    
+\end{tabbing}
 
 \end{document}
