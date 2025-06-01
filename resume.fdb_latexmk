@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1744199396.73412 "/Users/user/Desktop/Myfile/Resume/resume.tex" "resume.pdf" "resume" 1744199398.01823 0
+["pdflatex"] 1748788279.11916 "/Users/user/Desktop/Myfile/Resume/resume.tex" "resume.pdf" "resume" 1748788279.98033 0
   "/Library/Application Support/MiKTeX/texmfs/install/tex/generic/atbegshi/atbegshi.sty" 1731685971.88433 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/atveryend/atveryend.sty" 1731685972.87104 1695 be6b4d13b33db697fd3fd30b24716c1a ""
-  "/Users/user/Desktop/Myfile/Resume/resume.tex" 1744199395.50393 8168 38adc17e9d3c60e6c830f00adf89ec0a ""
+  "/Users/user/Desktop/Myfile/Resume/resume.tex" 1748788278.45097 9552 9a70abdd20a8582147dacce71493cadb ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1738793640.49554 80391 0015a734f05aa9761b16258cac55b031 ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1731689447.00879 8771594 c9c5a453f5accd52bd93943cac304fa9 ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc" 1731849091.77763 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -90,9 +90,9 @@
   "/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty" 1731767629.07221 14552 27664839421e418b87f56fa4c6f66b1a ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/tabularx.sty" 1731767629.08813 7243 e5dac1240636811edb77568b81818372 ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1731754588.68177 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "resume.aux" 1744199397.73884 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "resume.out" 1744199397.62186 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1744199395.50393 8168 38adc17e9d3c60e6c830f00adf89ec0a ""
+  "resume.aux" 1748788279.78265 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
+  "resume.out" 1748788279.70006 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1748788278.45097 9552 9a70abdd20a8582147dacce71493cadb ""
   (generated)
   "resume.aux"
   "resume.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.11.15)  9 APR 2025 12:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.11.15)  1 JUN 2025 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -432,7 +432,7 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 61--63
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 65.
 
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 77--88
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 77--89
  [][][]
  []
 
@@ -441,26 +441,28 @@ Overfull \hbox (2.22221pt too wide) in paragraph at lines 77--88
 [1
 
 {/Users/user/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 92--94
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 94--96
  [][][]
  []
 
-
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 103--105
- [][][]
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 112.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 103.
 (/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 162--163
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 182--184
  [][][]
  []
 
 
 
-[2] (resume.aux)
+[2]
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 194--195
+ [][][]
+ []
+
+
+
+[3] (resume.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
@@ -469,17 +471,17 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12044 strings out of 475616
- 197753 string characters out of 2768872
- 632232 words of memory out of 3000000
+ 12045 strings out of 475616
+ 197759 string characters out of 2768872
+ 633232 words of memory out of 3000000
  34668 multiletter control sequences out of 15000+600000
  605008 words of font info for 91 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,9n,79p,1037b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,9n,79p,1037b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}{/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}</Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx10.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy10.pfb>
-Output written on resume.pdf (2 pages, 140400 bytes).
+Output written on resume.pdf (3 pages, 142001 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 61 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
  30721 words of extra memory for PDF output out of 35830 (max. 10000000)
 
