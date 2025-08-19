@@ -10,20 +10,24 @@
 \usepackage{microtype}
 \usepackage{lmodern}
 \usepackage{tabularx}
+\usepackage{fontawesome5}
 
 % Hyperlink setup
+\usepackage{xcolor}
+\definecolor{primarycolor}{HTML}{2b2b2b}
+\definecolor{linkcolor}{HTML}{0056b3}
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
-    urlcolor=blue,
-    citecolor=blue
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=linkcolor
 }
 
 \newcommand{\sectionnumber}[1]{\textbf{#1}}
 
 \newcommand{\resumename}[1]{{\textls[150]{\fontsize{40pt}{40pt}\selectfont\textbf{#1}}}}
 \newcommand{\jobtitle}[1]{{\fontsize{15.5pt}{15pt}\selectfont\textbf{#1}}}
-\newcommand{\contactinfo}[1]{{\fontsize{11.5pt}{12pt}\selectfont #1}}
+\newcommand{\contactinfo}[1]{{\fontsize{12pt}{14pt}\selectfont\color{black!70}#1}}
 
 \newcommand{\sectiontitle}[1]{\textbf{\uppercase\expandafter{\romannumeral-`\0#1}}}
 
@@ -45,15 +49,23 @@
 
 \begin{center}
     \resumename{Hadi Ademola S.} \\[0.7cm]
-    \jobtitle{Frontend Engineer . FullStack Developer . Web3 Enthusiast} \\[0.3cm]
-    \contactinfo{+234 813 855 3465 \textbar\ \href{mailto:hadiademola@gmail.com}{hadiademola@gmail.com}  \textbar\  Ibadan, Nigeria \textbar\ \href{https://LinkedIn.com/in/Hardeygold205}{LinkedIn.com/in/Hardeygold205}}\\[0.1cm]
-    \contactinfo{ \href{https://hadiademola.vercel.app}{Visit My Portfolio: hadiademola.com}}
+    \jobtitle{Frontend Engineer . Web Developer . Mobile-App Developer} \\[0.3cm]
+    \contactinfo{
+        \faPhone* \ +234 813 855 3465 \textbar\ 
+        \faEnvelope \ \href{mailto:hadiademola@gmail.com}{hadiademola@gmail.com} \textbar\ 
+        \faMapMarker* \ Ibadan, Nigeria
+    } \\[0.3cm]
+    \contactinfo{
+        \faLinkedin \ \href{https://linkedin.com/in/Hardeygold205}{linkedin.com/in/Hardeygold205} \textbar\ 
+        \faGithub \ \href{https://github.com/Hardeygold205}{github.com/Hardeygold205} \textbar\ 
+        \faGlobe \ \href{https://hadiademola.vercel.app}{hadiademola.vercel.app}
+    }
 \end{center}
 
 \sectiondivider{Profile Summary} \\
 {\centering
 \setstretch{1.5}
-A passionate Frontend Engineer and Full-Stack Developer with a keen eye for crafting intuitive and engaging digital experiences. Fascinated by technology and driven by curiosity, I specialize in turning creative ideas into responsive, functional, and visually appealing web applications. I thrive on writing clean, efficient code and love bringing designs to life. With a deep commitment to continuous learning, I'm always exploring emerging technologies to enhance user experiences and push the boundaries of what's possible on the web.
+I am a creative Frontend Engineer who builds engaging and intuitive applications for the web and mobile devices. Fascinated by technology and driven by curiosity, I specialize in turning creative ideas into responsive, functional, and visually appealing web applications. I thrive on writing clean, efficient code and love bringing designs to life. With a deep commitment to continuous learning, I'm always exploring emerging technologies to enhance user experiences and push the boundaries of what's possible on the web and mobile.
 \par}
 
 \vspace{1.1cm}
