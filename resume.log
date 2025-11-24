@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.11.15)  19 AUG 2025 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.11.15)  24 NOV 2025 09:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -477,14 +477,14 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11
 (/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 194--196
+
+[2]
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 209--211
  [][][]
  []
 
 
-
-[2]
-Overfull \hbox (2.22221pt too wide) in paragraph at lines 206--207
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 221--222
  [][][]
  []
 
@@ -505,9 +505,9 @@ Here is how much of TeX's memory you used:
  38216 multiletter control sequences out of 15000+600000
  606111 words of font info for 96 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,9n,79p,1037b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,9n,79p,1037b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}{/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5free2.enc}</Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx10.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy10.pfb>
-Output written on resume.pdf (3 pages, 184709 bytes).
+Output written on resume.pdf (3 pages, 185353 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  4 named destinations out of 1000 (max. 500000)

@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1755607888.44317 "/Users/user/Desktop/Myfile/Resume/resume.tex" "resume.pdf" "resume" 1755607890.05634 0
+["pdflatex"] 1763973005.71347 "/Users/user/Desktop/Myfile/Resume/resume.tex" "resume.pdf" "resume" 1763973006.70918 0
   "/Library/Application Support/MiKTeX/texmfs/install/tex/generic/atbegshi/atbegshi.sty" 1731685971.88433 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/atveryend/atveryend.sty" 1731685972.87104 1695 be6b4d13b33db697fd3fd30b24716c1a ""
-  "/Users/user/Desktop/Myfile/Resume/resume.tex" 1755607889.52725 9903 346c4958e7b75f5e308784e1d8f4d42a ""
+  "/Users/user/Desktop/Myfile/Resume/resume.tex" 1763973005.03494 10483 bed408aa7098320dc4c6a1f63ec090e7 ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1755604998.11715 81493 1d386f51641bdac993d62a765afa9845 ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1731689447.00879 8771594 c9c5a453f5accd52bd93943cac304fa9 ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1755604996.94266 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -108,9 +108,9 @@
   "/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/tabularx.sty" 1731767629.08813 7243 e5dac1240636811edb77568b81818372 ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1731754588.68177 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1731767592.74043 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "resume.aux" 1755607889.70424 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
-  "resume.out" 1755607889.55721 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1755607889.52725 9903 346c4958e7b75f5e308784e1d8f4d42a ""
+  "resume.aux" 1763973006.47692 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
+  "resume.out" 1763973006.38179 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1763973005.03494 10483 bed408aa7098320dc4c6a1f63ec090e7 ""
   (generated)
   "resume.aux"
   "resume.log"
