@@ -43,89 +43,117 @@
     \vspace{3pt}
 }
 
+% Entry header: dates | role | org
+\newcommand{\cventry}[3]{%
+    \noindent
+    \begin{tabular*}{\linewidth}{@{}p{4cm} p{10cm} @{\extracolsep{\fill}} r@{}}
+        \textbf{\small #1} & \textbf{#2} & {\color{primarycolor}\small #3}
+    \end{tabular*}
+    \vspace{-3pt}
+}
+
+\newcommand{\project}[3]{%
+    \noindent
+    \begin{tabular*}{\linewidth}{@{}p{5.5cm} p{10cm} @{\extracolsep{\fill}} r@{}}
+        \textbf{#1} & {#2} & {\color{linkcolor}\small #3}
+    \end{tabular*}
+}
+ 
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.3em}
+
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{14pt}
+
 \pagenumbering{arabic}
 
 \begin{document}
 
 \begin{center}
-    \resumename{Hadi Ademola S.} \\[0.7cm]
-    \jobtitle{Frontend Engineer . Web Developer . Mobile-App Developer} \\[0.3cm]
+    \resumename{Hadi Ademola S.} \\[0.5cm]
+    \jobtitle{Frontend Engineer . Web Developer . Mobile Developer} \\[0.2cm]
     \contactinfo{
         \faPhone* \ +234 813 855 3465 \textbar\ 
         \faEnvelope \ \href{mailto:hadiademola@gmail.com}{hadiademola@gmail.com} \textbar\ 
         \faMapMarker* \ Abuja, Nigeria
     } \\[0.3cm]
     \contactinfo{
-        \faLinkedin \ \href{https://linkedin.com/in/Hardeygold205}{linkedin.com/in/Hardeygold205} \textbar\ 
+        \faGlobe \ \href{https://hadiademola.vercel.app}{hadiademola.com} \textbar\
         \faGithub \ \href{https://github.com/Hardeygold205}{github.com/Hardeygold205} \textbar\ 
-        \faGlobe \ \href{https://hadiademola.vercel.app}{hadiademola.vercel.app}
+        \faLinkedin \ \href{https://linkedin.com/in/Hardeygold205}{linkedin.com/in/Hardeygold205}
     }
 \end{center}
 
-\sectiondivider{Profile Summary} \\
-{\centering
-\setstretch{1.5}
-I am a creative Frontend Engineer who builds engaging and intuitive applications for the web and mobile devices. Fascinated by technology and driven by curiosity, I specialize in turning creative ideas into responsive, functional, and visually appealing web applications. I thrive on writing clean, efficient code and love bringing designs to life. With a deep commitment to continuous learning, I'm always exploring emerging technologies to enhance user experiences and push the boundaries of what's possible on the web and mobile.
-\par}
+\vspace{0.1cm}
 
-\vspace{1.1cm}
+\section{Personal Statement}
+\setstretch{1.65}
+Frontend and Mobile Engineer with hands-on experience designing, building, and shipping production-level applications across web and mobile platforms. I hold a B.Sc. in Physics from the University of Ibadan, which has sharpened my analytical thinking and systematic approach to problem-solving qualities I bring directly into software architecture and performance optimization.
+I have worked on multiple production-level applications involving authentication systems, real-time features and API integrations. I enjoy taking ownership of features end-to-end and building systems that are reliable, maintainable, and designed for real users especially in environments with low bandwidth and device constraints.
 
-\sectiondivider[0.47]{Skills}
-\noindent
+\section{Education \& Certifications}
+\vspace{-0.3cm}
+\cventry{2021 -- 2025}{Bachelor of Science, Physics}{University of Ibadan, Nigeria}
+\vspace{-0.5cm}
+\begin{itemize}
+    \item Graduated with a strong foundation in Computational Physics, Data Analysis, and Mathematical Methods in Physics.
+    \item Final year project: "Geophysical Evaluation of Subsurface Layers for Structural Foundations using Electrical Resistivity"
+\end{itemize}
+ 
+\vspace{1pt}
+\cventry{2023 -- 2024}{Software Engineering (Backend Track)}{ALX Africa}
+\vspace{-0.5cm}
+\begin{itemize}
+    \item Intensive programme covering systems programming, backend development and data structures .
+    \item Completed projects involving API development and performance optimization using languages like C, Python, and Node.js.
+\end{itemize}
+ 
+\vspace{1pt}
+\cventry{2022 -- 2023}{Frontend Web Development}{FreeCodeCamp}
+\vspace{-0.5cm}
+\begin{itemize}
+    \item Completed structured curriculum in responsive web design, JavaScript algorithms, and frontend frameworks.
+    \item Built multiple projects including a personal portfolio, and a markdown previewer using HTML, CSS, JavaScript.
+\end{itemize}
+
+\vspace{1pt}
+\cventry{2025 -- Present}{National Youth Service Corps (NYSC)}{Federal Republic of Nigeria}
+\vspace{-0.5cm}
+\begin{itemize}
+    \item Currently serving in the NYSC program, contributing to community development and national service initiatives.
+\end{itemize}
+
+\section{Technical Skills}
+\vspace{-0.3cm}
 \begin{tabbing}
 \hspace{6cm} \= \hspace{6cm} \= \kill
-\textbf{\uppercase{Technical Skills:}} \> HTML \& CSS \textbar\ JavaScript \textbar\ TypeScript \textbar\ Python (Basic) \textbar\ LaTex \textbar\ NodeJs \textbar\ NextJS  \\[0.2cm]
-\> React \textbar\ React Native \textbar\ TailwindCSS \textbar\ BootStrap \textbar\ MongoDB \textbar\ PostgreSQl \\[0.2cm]
-\> Linux/Unix \textbar\ Git \& Version Control \textbar\ SQL \textbar\ RESTful API Integration \\[0.2cm]
-\> Web3.js \textbar\ Ethers.js \textbar\ Solidity (Basic) \textbar\ Firebase \textbar\ Supabase  \\[3.5ex]
+\textbf{\uppercase{Languages:}} \> HTML \textbar\ CSS \textbar\ JavaScript \textbar\ TypeScript \textbar\ Python \textbar\ LaTex \textbar\ NodeJs  \\
+\> PHP (Basic) \textbar\ Solidity (Basic) \textbar\ C (Basic) \\[1ex]
 
-\textbf{\uppercase{Professional Skills:}} \> Geo-Physicsist \textbar\ Data Visualization \textbar\ Web3 Marketing \textbar\ Project Management  \\[0.2cm]
-\> Effective Communication \textbar\ Strategic Thinking \textbar\ Team Collaboration  \\[0.2cm]
-\> Blockchain \& Crypto Knowledge \textbar\ Digital Asset Trader \\
+\textbf{\uppercase{Frameworks/Libraries:}} \> React \textbar\ NextJs \textbar\ React Native \textbar\ React Native (Expo) \textbar\ Vue (Basic) \textbar\ Angular (Basic) \\
+\> ExpressJS \textbar\ NestJs \textbar\ Laravel \textbar\ Django (Basic) \\[1ex]
+
+\textbf{\uppercase{Database:}} \> MongoDB \textbar\ PostgreSQL \textbar\ SQL (Basic) \\[1ex]
+
+\textbf{\uppercase{Tools:}} \> Firebase \textbar\ Supabase \textbar\ Moodle \textbar\ Git/Github \textbar\ Linux/Unix
+
 \end{tabbing}
-
-\vspace{0.5cm}
-
-\sectiondivider[0.46]{Projects} \\
-\noindent
-\begin{tabular}{p{0.9\textwidth} r}
-    \sectionnumber{\large{Branovax Technology}} \textbar{} NextJS, TailwindCSS, Node.Js, PostgreSQl \textbar{} \contactinfo{ \href{https://branovax.com}{Live Dashboard}} \\[0.4cm]
-    \sectionnumber{\large{Excel Exchange}} \textbar{} Vite+React, React Native, TailwindCSS, Node.Js, MongoDB \textbar{} \contactinfo{ \href{https://excelexchange.vercel.app}{Live Dashboard}} \\[0.4cm]
-    \sectionnumber{\large{CoinBitz Extension}} \textbar{} Vite+React, TailwindCSS, ExpressJs, Web3.Js PostgreSQl \textbar{} \contactinfo{ \href{https://coinbit-extension.vercel.app}{Live Dashboard}} \\[0.4cm]
-    \sectionnumber{\large{My Personal Portfolio}} \textbar{} NextJS, TypeScript, TailwindCSS, EmailJs \textbar{} \contactinfo{ \href{https://hadiademola.vercel.app}{Live Dashboard}} \\[0.4cm]
-    \sectionnumber{\large{CampusRide App}} \textbar{} React Native, Expo Router, NativeWind, NodeJs, Docker \textbar{} \contactinfo{ \href{https://github.com/Hardeygold205/CampusRide}{Github Repository}} \\[0.4cm]
-    \sectionnumber{\large{Twitter Gain App}} \textbar{} HTML, CSS, JavaScript, BootStrap \textbar{} \contactinfo{ \href{https://github.com/Hardeygold205/twitter-gain-app}{Github Repository}} \\[0.4cm]
-    \sectionnumber{\large{JetSender}} \textbar{} NextJS, TypeScript, TailwindCSS, NodeMailer \textbar{} \contactinfo{ \href{https://github.com/Hardeygold205/BulkEMailSender}{Github Repository}} \\[0.4cm]
-    \sectionnumber{\large{Telegram Notify Bot}} \textbar{} NodeJS, JavaScript, BotFather \textbar{} \contactinfo{ \href{https://github.com/Hardeygold205/NottifyBot}{Github Repository}} \\
-\end{tabular}
 
 \vspace{0.1cm}
 
-\newpage
-
-\sectiondivider[0.38]{Work Experiences}
-\noindent
-\begin{tabbing}
-    \hspace{5cm} \= \hspace{8cm} \= \kill 
-    \textbf{Years} \> \textbf{Role}  \> \textbf{Company} \\[0.3cm]
-    \textbf{2025 -- Present} \> Frontend Developer (Intern)  \> Extension Africa \\[0.1cm]
-\end{tabbing}
+\section{Professional Experience}
 \vspace{-0.3cm}
+\cventry{Years}{Role}{Company}
+\cventry{2025 -- Present}{Frontend/Mobile Developer (Intern)}{Extension Africa}
+\vspace{-0.4cm}
 \begin{itemize}
-    \item Building a mobile and web application using React, React Native and Expo for this organizatiom.
-    \item Refractored and improved an old website for the organization.
-    \item Designed onboarding, login/signup, forms and all UI with responsive layouts.
-    \item Collaborated with a team of 13+ using Zoho and other social platform.
+    \item Built and maintained mobile and web applications using React and React Native
+    \item Improved performance and structure of an existing web platform through refactoring.
+    \item Designed and implemented authentication flows, onboarding systems, and responsive UI components.
+    \item Collaborated within a cross-functional team using modern development workflows.
 \end{itemize}
 
-\vspace{0.2cm}
-
-\noindent
-\begin{tabbing}
-    \hspace{5cm} \= \hspace{8cm} \= \kill
-    \textbf{2025 -- Present} \> Frontend App Developer  \> Play2score \\[0.1cm]
-\end{tabbing}
-\vspace{-0.3cm}
+\cventry{2025 -- 2026}{Mobile Developer}{Play2score}
+\vspace{-0.4cm}
 \begin{itemize}
     \item Building a mobile and web application using React Native and Expo for an organizatiom.
     \item Integrated Supase for user authentication, real-time data, and notifications.
@@ -133,29 +161,8 @@ I am a creative Frontend Engineer who builds engaging and intuitive applications
     \item Collaborated with a team of 3 using Git and GitHub, and other social platform.
 \end{itemize}
 
-\vspace{0.2cm}
-
-\noindent
-\begin{tabbing}
-    \hspace{5cm} \= \hspace{8cm} \= \kill
-    \textbf{2025 -- Present} \> FullStack Developer \& Project Lead  \> Branovax Technology \\[0.1cm]
-\end{tabbing}
-\vspace{-0.3cm}
-\begin{itemize}
-    \item Led a 3-member team to design and deploy custom web solutions for clients, utilizing NextJS with SEO Implemented.
-    \item Owned end-to-end project delivery and developed scalable web applications tailored to client requirements.
-    \item Implemented secure authentication, real-time data dashboards, and responsive UI/UX.
-\end{itemize}
-
-\vspace{0.2cm}
-
-\vspace{0.2cm}
-\noindent
-\begin{tabbing}
-    \hspace{5cm} \= \hspace{8cm} \= \kill 
-    \textbf{2024 -- Present} \> FullStack Developer (Personal Project)  \> ExcelExchange \\[0.1cm]
-\end{tabbing}
-\vspace{-0.3cm}
+\cventry{2024 -- 2025}{FullStack Developer (Personal Project)}{ExcelExchange}
+\vspace{-0.4cm}
 \begin{itemize}
     \item Developed a crypto trading app enabling users to swap cryptocurrencies for local fiat currencies.
     \item Designed and built responsive UI using React (web) and React Native (mobile).
@@ -163,13 +170,8 @@ I am a creative Frontend Engineer who builds engaging and intuitive applications
     \item Focused on user-friendly flows for wallet authentication, local transaction records, and conversion tracking.
 \end{itemize}
 
-\vspace{0.2cm}
-\noindent
-\begin{tabbing}
-    \hspace{5cm} \= \hspace{8cm} \= \kill 
-    \textbf{2024 -- Present} \> FullStack Developer (Personal Project)  \> CoinBitExtension \\[0.1cm]
-\end{tabbing}
-\vspace{-0.3cm}
+\cventry{2024 -- 2025}{FullStack Developer (Personal Project)}{CoinBitExtension}
+\vspace{-0.4cm}
 \begin{itemize}
     \item Built a decentralized dApp extension focused on interacting with blockchain networks.
     \item Integrated wallet connect functionality for Ethereum and Solana using WalletConnect and Phantom.
@@ -179,12 +181,8 @@ I am a creative Frontend Engineer who builds engaging and intuitive applications
     \item Hosted MVP with Vercel and managed codebase via GitHub.
 \end{itemize}
 
-\noindent
-\begin{tabbing}
-    \hspace{5cm} \= \hspace{8cm} \= \kill
-    \textbf{2023 -- 2024} \> App Developer  \> CampusRide \\[0.1cm]
-\end{tabbing}
-\vspace{-0.3cm}
+\cventry{2023 -- 2024}{Mobile Developer}{CampusRide}
+\vspace{-0.4cm}
 \begin{itemize}
     \item Built and deployed a mobile and web application using React Native and Expo for university-based transportation.
     \item Integrated Firebase for user authentication, real-time data, and notifications.
@@ -192,38 +190,49 @@ I am a creative Frontend Engineer who builds engaging and intuitive applications
     \item Collaborated with a team of 2 using Git and GitHub, and practiced agile methodologies.
 \end{itemize}
 
-\vspace{0.2cm}
-\noindent
-\begin{tabbing}
-    \hspace{5cm} \= \hspace{8cm} \= \kill 
-    \textbf{2023 -- 2024} \> SIWES Intern  \> Imaginarium Creative Global \\[0.1cm]
-\end{tabbing}
-\vspace{-0.3cm}
+\cventry{2025 -- 2026}{Frontend Engineer \& Project Lead}{Branovax Technology}
+\vspace{-0.4cm}
+\begin{itemize}
+    \item Led a 3-member team to design and deploy custom web solutions for clients, utilizing NextJS with SEO Implemented.
+    \item Owned end-to-end project delivery and developed scalable web applications tailored to client requirements.
+    \item Implemented secure authentication, real-time data dashboards, and responsive UI/UX.
+\end{itemize}
+
+\newpage
+\cventry{2023 -- 2024}{SIWES Intern}{Imaginarium Creative Global}
+\vspace{-0.4cm}
 \begin{itemize}
     \item Learned industry-level photography and editing workflows during a 6-week industrial training.
     \item Assisted in editing promotional media and handling client photography sessions.
     \item Developed a basic photo gallery portfolio site using HTML, CSS, and JavaScript.
 \end{itemize}
 
-\vspace{0.5cm}
-\sectiondivider[0.44]{Education}
-\noindent
-\begin{tabbing}
-    \hspace{5cm} \= \hspace{8cm} \= \kill
-    \textbf{Years} \> \textbf{Degree/Skills}  \> \textbf{Institutions} \\[0.3cm]
-    \textbf{2021 -- 2025} \> Bachelor of Science in Physics  \> University of Ibadan, Ibadan Nigeria \\[0.2cm]
-    \textbf{2023 -- 2024} \> Software Engineer/Backend Developer  \> ALX Africa \\[0.2cm]
-    \textbf{2022 -- 2023} \> Frontend Developer  \> FreeCodeCamp \\
-    
-\end{tabbing}
+\vspace{0.1cm}
 
-\vspace{0.5cm}
-\sectiondivider[0.35]{Performance Highlights}
-
+\section{Projects}
+\vspace{-0.3cm}
 \noindent
-\textbf{\huge \textcolor{black}{3}} \textnormal{Years of Experience} \hspace{0.75cm}
-\textbf{\huge \textcolor{black}{12}} \textnormal{Technologies Mastered} \hspace{0.75cm}
-\textbf{\huge \textcolor{black}{14}} \textnormal{Projects Completed} \hspace{0.75cm}
-\textbf{\huge \textcolor{black}{804}} \textnormal{Code Contributions}
+\project{Project}{Stack}{Link}
+\project{\large{Branovax Technology}}{ NextJS, TailwindCSS, Node.Js, PostgreSQl }{\contactinfo{ \href{https://branovax.com}{Live Dashboard}}} 
+\project{\large{Extension Africa Academy}}{ NextJS, TailwindCSS, Moodle(PHP), Apache  }{\contactinfo{ \href{https://academy.extensionafrica.com}{Live Dashboard}}}
+\project{\large{Excel Exchange}}{ Vite+React, React Native, TailwindCSS, Node.Js, MongoDB }{\contactinfo{ \href{https://excelexchange.vercel.app}{Live Dashboard}}}
+\project{\large{Personal Portfolio Website}}{ NextJS, TypeScript, TailwindCSS, EmailJs }{\contactinfo{ \href{https://hadiademola.vercel.app}{Live Dashboard}}}
+\project{\large{CoinBitz Extension}}{ Vite+React, TailwindCSS, ExpressJs, Web3.Js PostgreSQl }{\contactinfo{ \href{https://coinbit-extension.vercel.app}{Live Dashboard}}}
+\project{\large{CampusRide App}}{ React Native, Expo Router, NativeWind, NodeJs, Docker }{\contactinfo{ \href{https://github.com/Hardeygold205/CampusRide}{Github Repository}}}
+\project{\large{Twitter Gain App}}{ HTML, CSS, JavaScript, BootStrap }{\contactinfo{ \href{https://github.com/Hardeygold205/twitter-gain-app}{Github Repository}}}
+\project{\large{JetSender}}{ NextJS, TypeScript, TailwindCSS, NodeMailer }{\contactinfo{ \href{https://github.com/Hardeygold205/BulkEMailSender}{Github Repository}}}
+\project{\large{Telegram Notify Bot}}{ NodeJS, JavaScript, BotFather }{\contactinfo{ \href{https://github.com/Hardeygold205/NottifyBot}{Github Repository}}}
+
+
+\section{Interest \& Other Activities}
+\noindent
+\textbf{Blockchain \& Web3:} Active interest in decentralised finance (DeFi), smart contract development with Solidity, and building user-friendly dApp interfaces. \\[0.4ex]
+\textbf{Physics \& Computing:} Background in physics informs strong interest in computational thinking and graphical modeling. \\[0.4ex]
+\textbf{Open Source:} Actively maintain personal repositories on GitHub; interested in contributing to open-source tools. \\[0.4ex]
+\textbf{Community:} Interested in developer communities and knowledge sharing especially in the tech ecosystem.
+
+\section{References}
+\noindent
+Available upon request.
 
 \end{document}
