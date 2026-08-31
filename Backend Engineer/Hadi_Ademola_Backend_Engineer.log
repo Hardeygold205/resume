@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.11.15)  29 AUG 2026 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.11.15)  31 AUG 2026 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/user/Desktop/Myfile/Resume/resume.tex
-(/Users/user/Desktop/Myfile/Resume/resume.tex
+**"/Users/user/Desktop/Myfile/Resume/Backend Engineer/Hadi_Ademola_Backend_Engineer.tex"
+(/Users/user/Desktop/Myfile/Resume/Backend Engineer/Hadi_Ademola_Backend_Engineer.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
@@ -320,8 +320,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 24.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 58.
  (/Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (resume.aux)
-\openout1 = `resume.aux'.
+) (Hadi_Ademola_Backend_Engineer.aux)
+\openout1 = `Hadi_Ademola_Backend_Engineer.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
@@ -396,9 +396,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring ON on input line 58.
- (resume.out) (resume.out)
+ (Hadi_Ademola_Backend_Engineer.out) (Hadi_Ademola_Backend_Engineer.out)
 \@outlinefile=\write3
-\openout3 = `resume.out'.
+\openout3 = `Hadi_Ademola_Backend_Engineer.out'.
 
 LaTeX Info: Redefining \microtypecontext on input line 58.
 Package microtype Info: Applying patch `item' on input line 58.
@@ -457,24 +457,24 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 {/Users/user/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
 
-[2] (resume.aux)
+[2] (Hadi_Ademola_Backend_Engineer.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
-Package rerunfilecheck Info: File `resume.out' has not changed.
+Package rerunfilecheck Info: File `Hadi_Ademola_Backend_Engineer.out' has not changed.
 (rerunfilecheck)             Checksum: BA020B7149AFB272417F83221EF80791;468.
  ) 
 Here is how much of TeX's memory you used:
- 15601 strings out of 475616
- 273269 string characters out of 2768872
- 707872 words of memory out of 3000000
+ 15605 strings out of 475616
+ 273896 string characters out of 2768872
+ 706987 words of memory out of 3000000
  38179 multiletter control sequences out of 15000+600000
- 611832 words of font info for 102 fonts, out of 8000000 for 9000
+ 611998 words of font info for 104 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 75i,9n,79p,1037b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,9n,79p,1079b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc}{/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc}{/Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc}</Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbsy10.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx10.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx12.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmbx9.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr10.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr12.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmr9.pfb></Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmsy10.pfb>
-Output written on resume.pdf (2 pages, 201972 bytes).
+Output written on Hadi_Ademola_Backend_Engineer.pdf (2 pages, 201820 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)

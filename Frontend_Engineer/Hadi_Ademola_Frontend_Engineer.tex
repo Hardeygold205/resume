@@ -1,0 +1,191 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.45in]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+
+% Hyperlink setup
+\usepackage{xcolor}
+\definecolor{primarycolor}{HTML}{2b2b2b}
+\definecolor{linkcolor}{HTML}{0056b3}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=linkcolor
+}
+
+\newcommand{\sectionnumber}[1]{\textbf{#1}}
+
+\newcommand{\resumename}[1]{{\textls[50]{\fontsize{24pt}{24pt}\selectfont\textbf{#1}}}}
+\newcommand{\jobtitle}[1]{{\fontsize{14pt}{13.5pt}\selectfont\textbf{#1}}}
+\newcommand{\contactinfo}[1]{{\fontsize{11pt}{13pt}\selectfont\color{black!70}#1}}
+
+\newcommand{\cventry}[3]{%
+    \noindent
+    \begin{tabular*}{\linewidth}{@{}p{4.5cm} p{9cm} @{\extracolsep{\fill}} r@{}}
+        \textbf{\small #1} & \textbf{#2} & {\color{primarycolor}\small #3}
+    \end{tabular*}
+}
+
+\newcommand{\project}[3]{%
+    \noindent
+    \begin{tabular*}{\linewidth}{@{}p{5.5cm} p{10cm} @{\extracolsep{\fill}} r@{}}
+        \textbf{#1} & {#2} & {\color{linkcolor}\small #3}
+    \end{tabular*}
+}
+ 
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.3em}
+
+\titleformat{\section}
+  {\bfseries\fontsize{13pt}{15pt}\selectfont}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+\titlespacing*{\section}{0pt}{0pt}{5pt}
+
+\pagenumbering{arabic}
+
+\begin{document}
+
+\begin{center}
+    \resumename{Hadi Ademola Surajudeen} \\[0.1cm]
+    \jobtitle{Frontend Engineer \textbar\ Web \& Mobile Developer} \\[0.1cm]
+    \contactinfo{
+        \textbf{Phone:} \ +234 813 855 3465 \textbar\ 
+        \textbf{Email:} \ \href{mailto:hadiademola@gmail.com}{hadiademola@gmail.com} \textbar\ 
+        \textbf{Location:} \ Abuja, Nigeria \textbar\ UTC +1
+    } \\[0.1cm]
+    \contactinfo{
+        \textbf{Website:} \ \href{https://hadiademola.vercel.app}{hadiademola.com} \textbar\
+        \textbf{GitHub:} \ \href{https://github.com/Hardeygold205}{github.com/Hardeygold205} \textbar\ 
+        \textbf{LinkedIn:} \ \href{https://linkedin.com/in/Hardeygold205}{linkedin.com/in/Hardeygold205}
+    }
+\end{center}
+
+\vspace{-0.1cm}
+
+\section{Summary}
+I am a Frontend Engineer specializing in web and mobile application development, with experience building and deploying production-ready applications using JavaScript, TypeScript, and modern frameworks including React, Next.js, and React Native. I also have hands-on experience with WordPress CMS development, custom content management systems, and Linux server administration, including application deployment, CI/CD pipelines, Nginx, Apache, PM2, and GitHub Actions. I have a strong foundation in software architecture, REST API integration, database design, performance optimization, and building scalable, maintainable systems. My background in Physics has strengthened my analytical thinking and structured approach to solving complex engineering problems. I am passionate about building reliable, user-focused software that performs well in production.
+
+\vspace{0.1cm}
+
+\section{Technical Skills}
+\begin{tabbing}
+\hspace{5.0cm} \= \hspace{7.5cm} \= \kill
+
+\textbf{{Languages:}} \> JavaScript (ES6+) \textbar\ TypeScript \textbar\ PHP \textbar\ HTML \textbar\ CSS  \\
+\textbf{{Frontend \& Frameworks:}} \> React \textbar\ React Native \textbar\ Next.js \textbar\ Angular.js \textbar\ Livewire \textbar\ TailwindCSS \textbar\ Framer Motion  \\
+\textbf{{Backend \& Frameworks:}} \> Node.js \textbar\ Express.js \textbar\ NestJs \textbar\ Laravel \textbar\ Filament \\
+\textbf{{Databases:}} \> PostgreSQL \textbar\ MongoDB \textbar\ MySQL \textbar\ Redis \textbar\ Supabase \textbar\ Firebase \\
+\textbf{{Server, Tools \& Platforms:}} \> Git \textbar\ Github Actions \textbar\ WordPress \textbar\ Docker \textbar\ Linux \textbar\ SSH \textbar\ PM2 \textbar\ Apache \textbar\ Nginx \textbar\ Vercel  \\
+\> Render \textbar\ cPanel \textbar\ Postman \textbar\ SwaggerUI  Cloudflare 
+
+\end{tabbing}
+
+\vspace{-0.18cm}
+
+\section{Experience}
+\cventry{Nov 2025 -- Present}{Frontend/Mobile Developer}{Extension Africa}
+\vspace{-0.4cm}
+\begin{itemize}
+    \item Collaborated with engineering team to develop and maintain web and mobile applications using React and React Native.
+    \item Assisted in refactoring existing codebase to improve maintainability and performance.
+    \item Worked closely with APIs and backend systems to deliver functional features.
+    \item Participated in debugging, testing, and resolving production issues.
+\end{itemize}
+
+\cventry{May 2025 -- Sept 2025}{Mobile Developer (Contract)}{Play2score}
+\vspace{-0.4cm}
+\begin{itemize}
+    \item Developed a cross-platform mobile application using React Native and Expo Router with real-time features powered by Supabase.
+    \item Implemented authentication, real-time data synchronization, and push notifications for core user interactions.
+    \item Collaborated in a team environment using Git to deliver scalable and maintainable features.
+\end{itemize}
+
+\cventry{Aug 2024 -- Apr 2025}{Fullstack Developer \& Project Management}{Branovax Technology}
+\vspace{-0.4cm}
+\begin{itemize}
+    \item Collaborated with stakeholders to translate requirements into functional applications.
+    \item Built scalable full-stack solutions, handling frontend, backend, and database architecture.
+    \item Assisted in system design and code reviews within a team setting.
+    \item Monitored application performance and resolved issues to improve reliability.
+\end{itemize}
+
+\vspace{0.1cm}
+
+% \section{Certifications \& Training}
+% \cventry{Sept 2025 -- Present}{National Youth Service Corps (NYSC)}{Federal Republic of Nigeria}
+% \cventry{Dec 2024}{Youth Empowered Program}{Nigeria Bottling Company Ltd}
+% \cventry{Aug 2024}{Career Development and Counselling}{CDCC, University of Ibadan}
+
+% \vspace{-0.25cm}
+
+\section{Projects}
+\project{{Noreta Farms}}{ Next.js, TailwindCSS, Node.js, PM2, GitHub Actions, Nginx }{\contactinfo{ \href{https://noretafarms.com}{Live Application}}}
+\vspace{-0.4cm}
+\begin{itemize}
+    \item Developed and deployed a production-ready corporate website using Next.js with optimized performance, responsive UI, and SEO best practices.
+    \item Configured Linux server deployment with PM2, managed environment variables, SSH authentication, and implemented automated CI/CD using GitHub Actions for zero-touch deployments.
+\end{itemize}
+
+\project{{Extension Africa Academy}}{ Next.js, Moodle (PHP), PM2, Apache, Github Actions  }{\contactinfo{ \href{https://academy.extensionafrica.com}{Live Application}}}
+\vspace{-0.4cm}
+\begin{itemize}
+    \item Built and deployed a learning platform integrating a Next.js frontend with a Moodle LMS, providing seamless authentication and course access.
+    \item Configured Apache, managed production deployments, and automated updates using GitHub Actions and PM2 to streamline the deployment workflow.
+\end{itemize}
+
+\project{{Play2score App}}{ React Native, Expo Router, Supabase, Firebase }{\contactinfo{ \href{https://play2score.net}{Live Application}}}
+\vspace{-0.4cm}
+\begin{itemize}
+    \item Developed a cross-platform mobile application with real-time features, authentication, push notifications, and offline-friendly user experience.
+    \item Integrated Supabase services and backend APIs while collaborating in a Git-based development workflow to deliver production-ready features.
+\end{itemize}
+
+\project{{JustShortlet Backend Service}}{ Node.js, Express.js, PostgreSQL, Redis, Swagger UI, Render }{\contactinfo{ \href{https://github.com/Hardeygold205/justshortlet-api}{GitHub Repository}}}
+\vspace{-0.4cm}
+\begin{itemize}
+\item Designed and deployed a RESTful backend API for JustShortlet using Node.js and Express.js, with PostgreSQL for persistent data storage and Redis for caching and session management.
+\item Implemented secure authentication and authorization using JWT access tokens, refresh token rotation, role-based access control, and protected API endpoints for users, hosts, properties, bookings, and administrative operations.
+\item Developed and documented API endpoints with Swagger UI and deployed the production backend on Render, integrating environment-based configuration and production-ready database and Redis services.
+\end{itemize}
+
+\vspace{0.1cm}
+
+\project{{Admin Dashboard Management}}{ Angular, Tailwind CSS, TypeScript, Vercel }{\contactinfo{ \href{https://admin.justshortlet.com}{Live Application}}}
+\vspace{-0.4cm}
+\begin{itemize}
+\item Designed and developed a responsive administrative dashboard with Angular and Tailwind CSS for managing JustShortlet users, hosts, properties, bookings, and platform operations.
+\item Implemented Angular routing, reusable components, dashboard layouts, authentication flows, role-based navigation, forms, and API integration with the JustShortlet backend service.
+\item Deployed the production Angular application on Vercel and integrated it with the Express.js REST API for authenticated data management and real-time administrative operations.
+\end{itemize}
+
+\vspace{0.6cm}
+
+\section{Education}
+\cventry{2021 -- 2025}{B.Sc. Physics}{University of Ibadan, Nigeria}
+\begin{itemize}
+    \item Strong foundation in computational methods, data analysis, and mathematical modeling.
+\end{itemize}
+ 
+\cventry{2023 -- 2024}{Software Engineering (Backend Track)}{ALX Africa}
+\begin{itemize}
+    \item Trained in backend systems, data structures, and scalable application development.
+\end{itemize}
+ 
+\cventry{2022 -- 2023}{Frontend Web Development}{FreeCodeCamp}
+\begin{itemize}
+    \item Built multiple projects including a personal portfolio, and a markdown previewer using HTML, CSS, JavaScript.
+\end{itemize}
+
+\end{document}

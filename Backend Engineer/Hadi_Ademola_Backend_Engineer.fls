@@ -1,7 +1,7 @@
-PWD /Users/user/Desktop/Myfile/Resume
+PWD /Users/user/Desktop/Myfile/Resume/Backend Engineer
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /Users/user/Desktop/Myfile/Resume/resume.tex
-OUTPUT resume.log
+INPUT /Users/user/Desktop/Myfile/Resume/Backend Engineer/Hadi_Ademola_Backend_Engineer.tex
+OUTPUT Hadi_Ademola_Backend_Engineer.log
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
@@ -135,10 +135,10 @@ INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ot1lmr.fd
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/rm-lmr10.tfm
-INPUT ./resume.aux
-INPUT ./resume.aux
-INPUT resume.aux
-OUTPUT resume.aux
+INPUT ./Hadi_Ademola_Backend_Engineer.aux
+INPUT ./Hadi_Ademola_Backend_Engineer.aux
+INPUT Hadi_Ademola_Backend_Engineer.aux
+OUTPUT Hadi_Ademola_Backend_Engineer.aux
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -148,14 +148,14 @@ INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
-INPUT ./resume.out
-INPUT ./resume.out
-INPUT resume.out
-INPUT resume.out
-OUTPUT resume.pdf
-INPUT ./resume.out
-INPUT ./resume.out
-OUTPUT resume.out
+INPUT ./Hadi_Ademola_Backend_Engineer.out
+INPUT ./Hadi_Ademola_Backend_Engineer.out
+INPUT Hadi_Ademola_Backend_Engineer.out
+INPUT Hadi_Ademola_Backend_Engineer.out
+OUTPUT Hadi_Ademola_Backend_Engineer.pdf
+INPUT ./Hadi_Ademola_Backend_Engineer.out
+INPUT ./Hadi_Ademola_Backend_Engineer.out
+OUTPUT Hadi_Ademola_Backend_Engineer.out
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/microtype/mt-cmr.cfg
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/microtype/mt-cmr.cfg
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/microtype/mt-cmr.cfg
@@ -200,9 +200,9 @@ INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/ts1lmr.fd
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
-INPUT resume.aux
-INPUT ./resume.out
-INPUT ./resume.out
+INPUT Hadi_Ademola_Backend_Engineer.aux
+INPUT ./Hadi_Ademola_Backend_Engineer.out
+INPUT ./Hadi_Ademola_Backend_Engineer.out
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /Users/user/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/lm/lm-mathsy.enc
